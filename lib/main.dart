@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:money_mate/bnb.dart';
 
 void main() {
   runApp(
-    const Scaffold(
-      body: Text(
-        'Money Mate',
-      ),
+    const MaterialApp(
+      themeMode: ThemeMode.light,
+      debugShowCheckedModeBanner: false,
+      home: BNBar(),
     ),
   );
 }

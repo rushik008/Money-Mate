@@ -63,7 +63,7 @@ class _BNBarState extends State<BNBar> {
         // properties
         currentIndex: _selectedIndex,
         type: BottomNavigationBarType.fixed,
-        selectedItemColor: primaryGreen,
+        selectedItemColor: primaryBlue,
         onTap: _onItemTapped,
       ),
     );
